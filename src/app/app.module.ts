@@ -6,7 +6,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { DataPickerComponent } from './data-picker/data-picker.component';
 import { DemoDataProviderService } from './demo-data-provider.service';
 import { ChartComponent } from './chart/chart.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -15,7 +14,6 @@ import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
-    DataPickerComponent,
     ChartComponent
   ],
   imports: [
